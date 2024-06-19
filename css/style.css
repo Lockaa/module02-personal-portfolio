@@ -3,7 +3,7 @@
 
 /* VARIABLES */
 :root {
-  --primary-color: #59f6f6;
+  --primary-color: #67c3c3;
 }
 
 /* RESETS */
@@ -89,7 +89,7 @@ figure {
 }
 
 figure img {
-  width: 45%;
+  width: 20%;
 }
 
 figure figcaption {
@@ -108,19 +108,31 @@ figure figcaption h3 {
 }
 
 main {
-  display: flex;
-  grid-template-columns: repeat(3, 1fr);
-  /* justify-content: center;
-  align-items: center; */
-  flex: 1;
+  /*display: flex; */
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 500px;
+  
+  /*flex: 1;*/
 }
 
 main article {
+  font-size: 20px;
+  margin: 10px;
   padding: 15px;
+  height: 100px;
+  background-color: var(--primary-color);
 }
 
 main article.main-article {
-  grid-column: 1 / 4;
+  font-size: 30px;
+  height: 200px;
+  background-color: rgb(75, 173, 75);
+}
+
+main article.main-article img {
+  height: 75%;
+  width: 100%;
 }
 
 main article .article-content {
@@ -161,7 +173,7 @@ section.right-section .section-header {
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 30px 5%;
+  padding: 100px 15%;
 }
 
 .chat {
