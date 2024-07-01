@@ -140,6 +140,10 @@ main article .article-content {
   background-color: rgba(0, 0, 0, .1);
 }
 
+article img {
+  height: 75%; 
+}
+
 
 /*
 section {
